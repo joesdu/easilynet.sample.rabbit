@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="EasilyNET.RabbitBus.AspNetCore" Version="2.2.0" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\RabbitEvents\RabbitEvents.csproj" />
+	</ItemGroup>
+
+</Project>
